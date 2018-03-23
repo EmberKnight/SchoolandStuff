@@ -14,5 +14,8 @@ public class Main {
         IfElse test1 = new IfElse();
         test1.Score();
 
+        Switch test2 = new Switch();
+        test2.Case();
+
     }
 }

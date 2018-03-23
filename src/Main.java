@@ -11,5 +11,8 @@ public class Main {
         Figuren test = new Figuren();
         test.rechteck(x, y);
 
+        IfElse test1 = new IfElse();
+        test1.Score();
+
     }
 }

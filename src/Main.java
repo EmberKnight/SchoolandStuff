@@ -7,6 +7,9 @@ public class Main {
              Figuren test = new Figuren();
              test.aT(6);
 
+             Switch test1 = new Switch();
+             test1.Case();
+
         }
 
 }

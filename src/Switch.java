@@ -1,8 +1,14 @@
+import java.util.Scanner;
+
 public class Switch {
 
         public void Case() {
 
-            switch(5) {
+
+            Scanner test1 = new Scanner(System.in);
+            int userInput = test1.nextInt();
+
+            switch(userInput) {
 
                 case 0:
                     System.out.println("0");

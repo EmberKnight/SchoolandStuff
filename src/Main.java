@@ -4,8 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-            WhileLoop test = new WhileLoop();
-            test.Count();
+            Method test1 = new Method();
+            test1.createEnemy();
+
+        for (int i = 1; i < 10; i++) {
+            test1.createEnemy();
+        }
 
         }
 

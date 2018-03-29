@@ -8,7 +8,6 @@ public class Array {
     private int[] temp;
     private int num;
     int i = 0;
-    int[] numArray = new int[6];
 
     public Array() {
 
@@ -97,23 +96,6 @@ public class Array {
 
     }
 
-        public void numArray () {
-
-            for (i = 0; i < numArray.length; i++) {
-
-                Scanner scan = new Scanner(System.in);
-                int userInput = scan.nextInt();
-
-                if (userInput > 0 && userInput < 37) {
-                    numArray[i] = userInput;
-                } else {
-                    System.out.println("Invalid Input!");
-                    numArray[i] = 25;
-                }
-            }
-            System.out.println(Arrays.toString(numArray));
-
-        }
 
     public void minPos(int pos1, int pos2) {
         Objects.requireNonNull(temp);

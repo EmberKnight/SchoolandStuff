@@ -12,11 +12,16 @@ public class Main {
 
         Auto audi = new Auto(4, 7000, "Audi");
         audi.comparePrice(10000);
-        bmw.comparePrice(3000); */
+        bmw.comparePrice(3000);
 
         Laptop lenovo = new Laptop(8, 1000, "Lenovo");
-        lenovo.printToString();
+        lenovo.printToString(); */
 
+       Lenovo y = new Lenovo();
+       y.brand = "Lenovo";
+
+       Dell xps = new Dell();
+       xps.brand = "Dell";
 
     }
 

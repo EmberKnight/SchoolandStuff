@@ -12,6 +12,7 @@ public class Main {
 
         Auto audi = new Auto(4, 7000, "Audi");
         audi.comparePrice(10000);
+        bmw.comparePrice(3000);
 
     }
 

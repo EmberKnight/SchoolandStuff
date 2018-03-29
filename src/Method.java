@@ -8,4 +8,15 @@ public class Method {
 
        }
 
+
+       public void Multiplay(double n1, double n2) {
+
+           double ergebnis;
+
+           ergebnis = n1 * n2;
+
+           System.out.println(ergebnis);
+
+       }
+
 }

@@ -4,11 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-            Array test = new Array();
-            test.Fullen();
-            test.numLeftSmallerThanRight();
-            test.quotFirstLast();
-            test.minValForward();
+            Method test1 = new Method();
+            test1.createEnemy();
+
+        for (int i = 1; i < 10; i++) {
+            test1.createEnemy();
+        }
 
         }
 

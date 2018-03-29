@@ -1,10 +1,13 @@
 import java.util.Arrays;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Array {
 
     private int[] test;
     private int num;
+    int i = 0;
+    int[] numArray = new int[6];
 
     public Array() {
 
@@ -15,10 +18,9 @@ public class Array {
 
     public void setNum(int num) {
 
-        if(num <= test.length) {
+        if (num <= test.length) {
             this.num = num;
-        }
-        else {
+        } else {
             System.out.println("False Value");
         }
     }
@@ -33,7 +35,7 @@ public class Array {
         Random rand = new Random();
 
         for (i = 0; i < test.length; i++) {
-            test[i] = rand.nextInt(10 );
+            test[i] = rand.nextInt(10);
         }
 
         System.out.println(Arrays.toString(test));
@@ -53,8 +55,7 @@ public class Array {
                     anz++;
                 }
             }
-        }
-        else {
+        } else {
             System.out.println("Not enough nums!");
         }
         System.out.println(anz);
@@ -65,15 +66,13 @@ public class Array {
         double division;
 
         if (num >= 2) {
-                if ((test[0] != 0) && (test[num - 1] != 0)) {
-                    division = test[0] / test[num - 1];
-                    System.out.println(division);
-                }
-                else {
-                    System.out.println("Division with 0 is impossible!");
-                }
-        }
-        else {
+            if ((test[0] != 0) && (test[num - 1] != 0)) {
+                division = test[0] / test[num - 1];
+                System.out.println(division);
+            } else {
+                System.out.println("Division with 0 is impossible!");
+            }
+        } else {
             System.out.println("Not enough nums!");
         }
 
@@ -96,5 +95,24 @@ public class Array {
         System.out.println(Arrays.toString(test));
 
     }
+
+        public void numArray () {
+
+            for (i = 0; i < numArray.length; i++) {
+
+                Scanner scan = new Scanner(System.in);
+                int userInput = scan.nextInt();
+
+                if (userInput > 0 && userInput < 37) {
+                    numArray[i] = userInput;
+                } else {
+                    System.out.println("Invalid Input!");
+                    numArray[i] = 25;
+                }
+            }
+            System.out.println(Arrays.toString(numArray));
+
+        }
+
 
 }

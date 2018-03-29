@@ -5,15 +5,13 @@ public class Main {
         test.Fullen();
         test.minPos(6,5); */
 
-        Auto bmw = new Auto();
+        Auto bmw = new Auto(4, 5000, "BMW");
         System.out.println(bmw);
-        bmw.preis = 5000;
-        bmw.reifen = 4;
-        bmw.marke = "BMW";
 
         System.out.println("Preis:  " + bmw.preis + " Reifen: "  + bmw.reifen + " Marke: " + bmw.marke);
 
-        Auto audi = new Auto();
+        Auto audi = new Auto(4, 7000, "Audi");
+        audi.comparePrice(10000);
 
     }
 

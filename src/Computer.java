@@ -7,12 +7,13 @@ public class Computer {
     boolean on;
     Mainboard mainboard;
 
-    public Computer(String brand, double ghz, int ram, int storage, boolean on) {
+    public Computer(String brand, double ghz, int ram, int storage, boolean on, Mainboard mainboard) {
         setBrand(brand);
         setGhz(ghz);
         setRam(ram);
         setStorage(storage);
         setOn(on);
+        setMainboard(mainboard);
     }
 
     //-------------------- setter && getter -------------------------------------------------------------
@@ -37,6 +38,10 @@ public class Computer {
         this.on = on;
     }
 
+    public void setMainboard(Mainboard mainboard) {
+        this.mainboard = mainboard;
+    }
+
     public String getBrand() {
         return this.brand;
     }
@@ -57,6 +62,10 @@ public class Computer {
         return this.on;
     }
 
+    public Mainboard getMainboard() {
+        return this.mainboard;
+    }
+
     //--------------------------------------------------------------------------------------------------
 
     public void turnOn(String brand) {
@@ -72,16 +81,16 @@ public class Computer {
 
     @Override
     public String toString() {
-        return "Computer{" +
-                "brand='" + brand + '\'' +
-                ", ghz=" + ghz +
-                ", ram=" + ram +
-                ", storage=" + storage +
-                ", on=" + on +
-                '}';
+        return  "Brand: " + brand + "\n" +
+                "GHz: " + ghz + "\n" +
+                "RAM: " + ram + "\n" +
+                "Storage: " + storage + "\n" +
+                "Booting: " + on + "\n" +
+                "Mainboard: " + mainboard;
     }
 
     public void printString() {
         System.out.println(toString());
     }
+
 }

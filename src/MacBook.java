@@ -2,8 +2,8 @@ public class MacBook extends Computer {
 
     boolean touchBar;
 
-    public MacBook(double ghz, int ram, int storage, boolean on, boolean touchBar) {
-        super("Apple", ghz, ram, storage, on);
+    public MacBook(double ghz, int ram, int storage, boolean on, boolean touchBar, Mainboard mainboard) {
+        super("Apple", ghz, ram, storage, on, mainboard);
         setTouchBar(touchBar);
     }
 

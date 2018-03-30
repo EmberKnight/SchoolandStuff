@@ -20,11 +20,16 @@ public class Main {
        /* Lenovo y = new Lenovo("Lenovo", 2.8d, 8, 256, true);
        y.printString(); */
 
-       MacBook pro = new MacBook(3.5d, 16, 512, false, true);
+       /* MacBook pro = new MacBook(3.5d, 16, 512, false, true);
        pro.start();
 
        Mainboard mb1 = new Mainboard(4, 2, 5);
-       pro.mainboard = mb1;
+       pro.mainboard = mb1; */
+
+       Mainboard mb2 = new Mainboard(4, 2, 5);
+       Computer pc = new Computer("Apple", 3.5d, 16, 512, false, mb2);
+
+       pc.printString();
 
     }
 

@@ -27,8 +27,7 @@ public class Auto {
     public void comparePrice(int preis) {
         if (this.preis <= preis) {
             System.out.println("Der " + this.marke + " ist billiger!");
-        }
-        else {
+        } else {
             System.out.println("Der " + this.marke + " ist teuerer!");
         }
     }

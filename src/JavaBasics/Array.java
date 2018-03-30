@@ -7,15 +7,19 @@ import java.util.Objects;
 
 public class Array {
 
+    int i = 0;
     private int[] temp;
     private int num;
-    int i = 0;
 
     public Array() {
 
         temp = new int[15];
         setNum(0);
 
+    }
+
+    public int getNum() {
+        return num;
     }
 
     public void setNum(int num) {
@@ -25,10 +29,6 @@ public class Array {
         } else {
             System.out.println("False Value");
         }
-    }
-
-    public int getNum() {
-        return num;
     }
 
     public void Fullen() {

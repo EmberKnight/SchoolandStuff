@@ -17,14 +17,13 @@ public class WhileLoop {
 
             anzahlGegner = 10;
 
-        }
-        else if (userInput == 2) {
+        } else if (userInput == 2) {
 
             anzahlGegner = 15;
 
         }
 
-        while(anzahlGegner != 0) {
+        while (anzahlGegner != 0) {
             System.out.println("Gegner erstellt!");
             anzahlGegner--;
         }

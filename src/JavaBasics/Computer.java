@@ -48,7 +48,7 @@ public abstract class Computer {
         return this.storage;
     }
 
-    public void setStorage(int storage){
+    public void setStorage(int storage) {
         this.storage = storage;
     }
 
@@ -75,15 +75,14 @@ public abstract class Computer {
         if ((this.brand.equals(brand)) && (!isOn())) {
             System.out.println("The laptop is booting!");
             on = true;
-        }
-        else {
+        } else {
             System.out.println("This laptop is already on!");
         }
     }
 
     @Override
     public String toString() {
-        return  "Brand: " + brand + "\n" +
+        return "Brand: " + brand + "\n" +
                 "GHz: " + ghz + "\n" +
                 "RAM: " + ram + "\n" +
                 "Storage: " + storage + "\n" +

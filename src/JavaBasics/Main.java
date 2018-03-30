@@ -33,10 +33,10 @@ public class Main {
 
        pc.printString(); */
 
-       Character ch = new Character();
-       ch.hitpoints = 100;
-       ch.name = "Link";
-       System.out.println("Name: " + ch.name + "\n" + "HP: " + ch.hitpoints);
+        Character ch = new Character();
+        ch.hitpoints = 100;
+        ch.name = "Link";
+        System.out.println("Name: " + ch.name + "\n" + "HP: " + ch.hitpoints);
 
 
     }

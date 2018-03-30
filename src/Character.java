@@ -1,5 +1,3 @@
-package JavaBasics;
-
 public class Character {
 
     public String name;

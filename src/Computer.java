@@ -1,5 +1,3 @@
-package JavaBasics;
-
 public class Computer {
 
     String brand;
@@ -88,7 +86,7 @@ public class Computer {
                 "RAM: " + ram + "\n" +
                 "Storage: " + storage + "\n" +
                 "Booting: " + on + "\n" +
-                "JavaBasics.Mainboard: " + "PCI Slots: " + mainboard.getPciSlots() +
+                "Mainboard: " + "PCI Slots: " + mainboard.getPciSlots() +
                 " RAM Slots: " + mainboard.getRamSlots() + " USB Ports: " + mainboard.getUsbPorts();
     }
 

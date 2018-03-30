@@ -1,5 +1,3 @@
-package JavaBasics;
-
 public class Mainboard {
 
     int ramSlots;

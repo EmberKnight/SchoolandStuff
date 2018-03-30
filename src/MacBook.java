@@ -1,5 +1,3 @@
-package JavaBasics;
-
 public class MacBook extends Computer {
 
     boolean touchBar;

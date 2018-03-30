@@ -1,5 +1,3 @@
-package JavaBasics;
-
 public class IfElse {
 
     public void Score() {

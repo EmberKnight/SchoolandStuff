@@ -67,4 +67,18 @@ public class Computer {
         }
     }
 
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "brand='" + brand + '\'' +
+                ", ghz=" + ghz +
+                ", ram=" + ram +
+                ", storage=" + storage +
+                ", on=" + on +
+                '}';
+    }
+
+    public void printString() {
+        System.out.println(toString());
+    }
 }

@@ -19,9 +19,11 @@ public class Main {
 
        Lenovo y = new Lenovo("Lenovo", 2.8d, 8, 256, true);
 
-       System.out.println();
+       y.printString();
 
        y.turnOn("Lenovo");
+
+
 
     }
 

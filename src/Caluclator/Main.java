@@ -1,12 +1,13 @@
 package Caluclator;
 
 import java.util.Scanner;
+import javax.swing.JFrame;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+       /* Scanner scan = new Scanner(System.in);
 
         try {
             //   int userNum1 = scan.nextInt();
@@ -26,7 +27,12 @@ public class Main {
             //       e1.printStackTrace();
             //   }
         }
-        System.out.println("Program runs again!");
+        System.out.println("Program runs again!"); */
+
+        JFrame window = new JFrame("Window");
+        window.setSize(700, 300);
+        window.setVisible(true);
+
     }
 
 }

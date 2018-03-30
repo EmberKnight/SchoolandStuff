@@ -17,13 +17,11 @@ public class Main {
         Laptop lenovo = new Laptop(8, 1000, "Lenovo");
         lenovo.printToString(); */
 
-       Lenovo y = new Lenovo("Lenovo", 2.8d, 8, 256, true);
+       /* Lenovo y = new Lenovo("Lenovo", 2.8d, 8, 256, true);
+       y.printString(); */
 
-       y.printString();
-
-       y.turnOn("Lenovo");
-
-
+       MacBook pro = new MacBook(3.5d, 16, 512, false, true);
+       pro.start();
 
     }
 

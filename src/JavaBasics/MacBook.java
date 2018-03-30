@@ -17,7 +17,7 @@ public class MacBook extends Computer {
         this.touchBar = touchBar;
     }
 
-    public void start() {
+    public void turnOn() {
         super.turnOn("Apple");
     }
 

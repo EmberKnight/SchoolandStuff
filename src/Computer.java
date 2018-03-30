@@ -86,7 +86,8 @@ public class Computer {
                 "RAM: " + ram + "\n" +
                 "Storage: " + storage + "\n" +
                 "Booting: " + on + "\n" +
-                "Mainboard: " + mainboard;
+                "Mainboard: " + "PCI Slots: " + mainboard.getPciSlots() +
+                " RAM Slots: " + mainboard.getRamSlots() + " USB Ports: " + mainboard.getUsbPorts();
     }
 
     public void printString() {

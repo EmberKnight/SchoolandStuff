@@ -17,11 +17,11 @@ public class Main {
         Laptop lenovo = new Laptop(8, 1000, "Lenovo");
         lenovo.printToString(); */
 
-       Lenovo y = new Lenovo();
-       y.brand = "Lenovo";
+       Lenovo y = new Lenovo("Lenovo", 2.8d, 8, 256, true);
 
-       Dell xps = new Dell();
-       xps.brand = "Dell";
+       System.out.println();
+
+       y.turnOn("Lenovo");
 
     }
 

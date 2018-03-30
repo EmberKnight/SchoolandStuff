@@ -3,6 +3,7 @@ package JavaBasics;
 public class Main {
 
     public static void main(String[] args) {
+
        /* JavaBasics.Array test = new JavaBasics.Array();
         test.Fullen();
         test.minPos(6,5); */
@@ -33,11 +34,13 @@ public class Main {
 
        pc.printString(); */
 
-        Character ch = new Character();
+       /* Character ch = new Character();
         ch.hitpoints = 100;
         ch.name = "Link";
-        System.out.println("Name: " + ch.name + "\n" + "HP: " + ch.hitpoints);
+        System.out.println("Name: " + ch.name + "\n" + "HP: " + ch.hitpoints); */
 
+        OnePlus5 phone = new OnePlus5(499.99, "Smartphone");
+        phone.powerOn();
 
     }
 

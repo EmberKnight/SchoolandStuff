@@ -9,12 +9,12 @@ public class MacBook extends Computer {
         setTouchBar(touchBar);
     }
 
-    public void setTouchBar(boolean touchBar) {
-        this.touchBar = touchBar;
-    }
-
     public boolean isTouchBar() {
         return this.touchBar;
+    }
+
+    public void setTouchBar(boolean touchBar) {
+        this.touchBar = touchBar;
     }
 
     public void start() {

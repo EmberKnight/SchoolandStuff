@@ -1,6 +1,6 @@
 package JavaBasics;
 
-public class Computer {
+public abstract class Computer {
 
     String brand;
     double ghz;
@@ -20,52 +20,52 @@ public class Computer {
 
     //-------------------- setter && getter -------------------------------------------------------------
 
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public void setGhz(double ghz) {
-        this.ghz = ghz;
-    }
-
-    public void setRam(int ram) {
-        this.ram = ram;
-    }
-
-    public void setStorage(int storage){
-        this.storage = storage;
-    }
-
-    public void setOn(boolean on) {
-        this.on = on;
-    }
-
-    public void setMainboard(Mainboard mainboard) {
-        this.mainboard = mainboard;
-    }
-
     public String getBrand() {
         return this.brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
     }
 
     public double getGhz() {
         return this.ghz;
     }
 
+    public void setGhz(double ghz) {
+        this.ghz = ghz;
+    }
+
     public int getRam() {
         return this.ram;
+    }
+
+    public void setRam(int ram) {
+        this.ram = ram;
     }
 
     public int getStorage() {
         return this.storage;
     }
 
+    public void setStorage(int storage){
+        this.storage = storage;
+    }
+
     public boolean isOn() {
         return this.on;
     }
 
+    public void setOn(boolean on) {
+        this.on = on;
+    }
+
     public Mainboard getMainboard() {
         return this.mainboard;
+    }
+
+    public void setMainboard(Mainboard mainboard) {
+        this.mainboard = mainboard;
     }
 
     //--------------------------------------------------------------------------------------------------

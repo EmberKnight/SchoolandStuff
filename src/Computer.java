@@ -5,6 +5,7 @@ public class Computer {
     int ram;
     int storage;
     boolean on;
+    Mainboard mainboard;
 
     public Computer(String brand, double ghz, int ram, int storage, boolean on) {
         setBrand(brand);
@@ -14,7 +15,7 @@ public class Computer {
         setOn(on);
     }
 
-    //-------------------- setter && getter ---------------------------------------
+    //-------------------- setter && getter -------------------------------------------------------------
 
     public void setBrand(String brand) {
         this.brand = brand;
@@ -55,6 +56,8 @@ public class Computer {
     public boolean isOn() {
         return this.on;
     }
+
+    //--------------------------------------------------------------------------------------------------
 
     public void turnOn(String brand) {
 

@@ -23,6 +23,9 @@ public class Main {
        MacBook pro = new MacBook(3.5d, 16, 512, false, true);
        pro.start();
 
+       Mainboard mb1 = new Mainboard(4, 2, 5);
+       pro.mainboard = mb1;
+
     }
 
 }

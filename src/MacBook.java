@@ -17,7 +17,6 @@ public class MacBook extends Computer {
 
     public void start() {
         super.turnOn("Apple");
-        System.out.println("The MacBook is starting!");
     }
 
 }

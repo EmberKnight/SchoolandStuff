@@ -39,9 +39,8 @@ public class Main {
         ch.name = "Link";
         System.out.println("Name: " + ch.name + "\n" + "HP: " + ch.hitpoints); */
 
-        OnePlus5 phone = new OnePlus5(499.99, "Smartphone");
-        phone.powerOn();
-
+       /* OnePlus5 phone = new OnePlus5(499.99, "Smartphone");
+        phone.powerOn(); */
     }
 
 }

@@ -49,8 +49,8 @@ public class EmployeeList {
     public static void main(String[] args) {
 
         List<Employee> employeeList = new ArrayList<>();
-        addEmployee(1, employeeList);
-        Collections.sort(employeeList, new SortByBirthYear());
+        addEmployee(3, employeeList);
+        Collections.sort(employeeList, new SortByID());
         printEmployee(employeeList);
 
     }
@@ -58,12 +58,10 @@ public class EmployeeList {
     public static void addEmployee(int num, Collection<Employee> coll) {
         for(int i = 0; i <= num; i++) {
             Scanner scanEmployee = new Scanner(System.in);
-            System.out.println("Please enter the ID: ");
-            int id = scanEmployee.nextInt();
+            int id = (int)(Math.random() * 10);
             System.out.println("Please enter the name: ");
             String name = scanEmployee.next();
-            System.out.println("Please enter the birth year: ");
-            int birthYear = scanEmployee.nextInt();
+            int birthYear = (int)(Math.random() * 2000);
 
 
             Employee employee = new Employee(id, name, birthYear);

@@ -1,4 +1,4 @@
-package Caluclator;
+package Calculator;
 
 public class NoDivisionByZeroException extends Exception {
 

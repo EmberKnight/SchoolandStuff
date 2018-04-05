@@ -1,7 +1,4 @@
-package Caluclator;
-
-import java.util.Scanner;
-import javax.swing.JFrame;
+package Calculator;
 
 public class Main {
 
@@ -29,9 +26,17 @@ public class Main {
         }
         System.out.println("Program runs again!"); */
 
-        JFrame window = new JFrame("Window");
-        window.setSize(700, 300);
-        window.setVisible(true);
+//        JFrame window = new JFrame("Window");
+//        window.setSize(700, 300);
+//        window.setVisible(true);
+
+
+        int x = 1;
+        while(x < 10) {
+            if(x > 3) {
+                System.out.print(x + " lol");
+            }
+        }
 
     }
 
